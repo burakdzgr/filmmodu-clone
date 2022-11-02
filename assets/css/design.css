@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Karla:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1200px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper .swiper-wrapper {
+  margin-bottom: 30px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.swiper-wrapper .swiper-slide {
+  flex-basis: 50%;
+  background: #000;
+}
+.swiper-wrapper .swiper-slide:nth-child(odd){
+    padding-right: 15px;
+}
+.swiper-wrapper .swiper-slide:nth-child(even){
+    padding-left: 15px;
+}
+.swiper-button-next {
+  margin-right: 15px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffc526 !important;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.poster {
+  width: 100%;
+}
+.poster img {
+  width: 100%;
+}
+.movie-list{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.movie-list ul{
+    flex-wrap: wrap;
+}
+.movie {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.movie-large .poster a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-indent: -99999px;
+  z-index: 3;
+}
+.movie-large .poster .detail {
+  position: absolute;
+  text-align: left;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 35% 2% 2% 2%;
+  top: 0;
+  background: rgba(254, 254, 254, 0);
+  background: -moz-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(254, 254, 254, 0)),
+    color-stop(74%, rgba(0, 0, 0, 0.52)),
+    color-stop(79%, rgba(0, 0, 0, 0.55)),
+    color-stop(100%, rgba(0, 0, 0, 0.7))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#000000', GradientType=0 );
+}
+.movie-large .poster .detail .original-name {
+  font-size: 30px;
+  line-height: 45px;
+  color: #fff;
+}
+.movie-large .poster .detail .turkish-name {
+  font-size: 26px;
+  line-height: 39px;
+  color: #ffc526;
+}
+.movie-large .poster .top-left {
+  position: absolute;
+  left: 2%;
+  top: 5%;
+}
+.movie-large .poster .top-right {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+.black-badge {
+  min-width: 55px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  padding: 0 8px;
+  display: inline-block;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+}
+.movie .poster .language {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+}
+.movie .poster .language .flag.en {
+  background-image: url("/assets/img/language/en.svg");
+}
+.movie .poster .language .flag {
+  width: 22px;
+  height: 16px;
+}
+.movie .poster img {
+  width: 100%;
+  height: auto;
+}
+.movie .poster {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.movie .poster a {
+  text-indent: -99999px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.movie .poster .hover-box {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.movie .poster .hover-box .top {
+  line-height: 19px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.movie .poster .hover-box .center {
+  position: relative;
+  padding: 65px 10px;
+  height: 170px;
+  text-align: center;
+}
+.movie .poster .hover-box .bottom {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  line-height: 22px;
+}
+.movie .poster .detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding: 50% 5% 5% 5%;
+  background: rgba(254, 254, 254, 0);
+  background: -moz-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(254, 254, 254, 0)),
+    color-stop(74%, rgba(0, 0, 0, 0.52)),
+    color-stop(79%, rgba(0, 0, 0, 0.55)),
+    color-stop(100%, rgba(0, 0, 0, 0.7))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(0, 0, 0, 0.52) 74%,
+    rgba(0, 0, 0, 0.55) 79%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#000000', GradientType=0 );
+}
+.movie .poster .detail p{
+    margin: 8px 0 0;
+    line-height: 17px;
+}
+.movie .poster .detail p .original-name{
+    font-size: 18px;
+    color: #fff;
+}
+.movie .poster .detail p .turkish-name{
+    font-size: 16px;
+    color: #ffc526;
+}
+.movie .poster .hover-box .center .imdb-rating {
+  font-size: 40px;
+  color: #fff;
+  display: block;
+  line-height: 28px;
+}
+.movie .poster .hover-box .center .text {
+  font-size: 14px;
+  display: block;
+  color: #fff;
+}
+.movie .poster .hover-box .center canvas {
+  left: -62px;
+  margin-left: 50%;
+  top: 22px;
+  position: absolute;
+}
+.movie .poster:hover .hover-box {
+  display: block;
+}

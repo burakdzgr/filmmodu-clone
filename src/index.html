@@ -1,13 +1,507 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/design.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="container mx-auto">
+        <div class="main-content bg-black px-[15px]">
+          <header class="header">
+            <div
+              class="header-items flex items-center justify-between pt-[15px] pb-[6px]"
+            >
+              <div class="header-logo-search flex items-center">
+                <div class="header-logo">
+                  <a href="javascript:;" class="block">
+                    <img src="/assets/img/logo.svg" alt="" />
+                  </a>
+                </div>
+                <div class="header-search">
+                  <input
+                    class="min-w-[350px] h-[40px] py-[6px] px-[12px] outline-none bg-[#1d1d1d] border-[#1d1d1d] hover:bg-white text-[#bbb] hover:text-black rounded-sm ml-2 text-sm"
+                    type="search"
+                    placeholder="film, imdb, yönetmen veya oyuncu arayın..."
+                  />
+                </div>
+              </div>
+              <div class="header-login-action-box">
+                <ul class="flex items-center">
+                  <li>
+                    <a
+                      href="javascript:;"
+                      class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                      >Giriş Yap</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:;"
+                      class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                      >Kayıt Ol</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <nav class="header-nav">
+              <ul class="flex items-center">
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm pr-2.5"
+                    >Arşiv</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >Film Türleri</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >En Çok İzlenen Filmler</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >Seri Filmler</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >Oyuncular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >Yönetmenler</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >Altyazılı Filmler</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:;"
+                    class="block text-white hover:text-[#FFC526] text-sm p-2.5"
+                    >Türkçe Dublaj Filmler</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <section class="slider bg-black">
+            <div class="slider-section-items">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper swiper-items">
+                  <div class="movie-large swiper-slide">
+                    <div class="poster relative overflow-hidden rounded-sm">
+                      <a href="javascript:;" class="block">Bullet Train</a>
+                      <img
+                        class="img-responsive"
+                        src="/assets/img/slider/slider.jpg"
+                        alt=""
+                        width="570"
+                        height="320"
+                      />
+                      <div class="detail">
+                        <p>
+                          <span class="original-name"> Bullet Train </span>
+                        </p>
+                        <p>
+                          <span class="turkish-name"> Suikast Treni </span>
+                        </p>
+                      </div>
+                      <div class="top-left">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                      <div class="top-right">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="movie-large swiper-slide">
+                    <div class="poster relative overflow-hidden rounded-sm">
+                      <a href="javascript:;" class="block">Bullet Train</a>
+                      <img
+                        class="img-responsive"
+                        src="/assets/img/slider/slider.jpg"
+                        alt=""
+                        width="570"
+                        height="320"
+                      />
+                      <div class="detail">
+                        <p>
+                          <span class="original-name"> Bullet Train </span>
+                        </p>
+                        <p>
+                          <span class="turkish-name"> Suikast Treni </span>
+                        </p>
+                      </div>
+                      <div class="top-left">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                      <div class="top-right">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="movie-large swiper-slide">
+                    <div class="poster relative overflow-hidden rounded-sm">
+                      <a href="javascript:;" class="block">Bullet Train</a>
+                      <img
+                        class="img-responsive"
+                        src="/assets/img/slider/slider.jpg"
+                        alt=""
+                        width="570"
+                        height="320"
+                      />
+                      <div class="detail">
+                        <p>
+                          <span class="original-name"> Bullet Train </span>
+                        </p>
+                        <p>
+                          <span class="turkish-name"> Suikast Treni </span>
+                        </p>
+                      </div>
+                      <div class="top-left">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                      <div class="top-right">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="movie-large swiper-slide">
+                    <div class="poster relative overflow-hidden rounded-sm">
+                      <a href="javascript:;" class="block">Bullet Train</a>
+                      <img
+                        class="img-responsive"
+                        src="/assets/img/slider/slider.jpg"
+                        alt=""
+                        width="570"
+                        height="320"
+                      />
+                      <div class="detail">
+                        <p>
+                          <span class="original-name"> Bullet Train </span>
+                        </p>
+                        <p>
+                          <span class="turkish-name"> Suikast Treni </span>
+                        </p>
+                      </div>
+                      <div class="top-left">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                      <div class="top-right">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="movie-large swiper-slide">
+                    <div class="poster relative overflow-hidden rounded-sm">
+                      <a href="javascript:;" class="block">Bullet Train</a>
+                      <img
+                        class="img-responsive"
+                        src="/assets/img/slider/slider.jpg"
+                        alt=""
+                        width="570"
+                        height="320"
+                      />
+                      <div class="detail">
+                        <p>
+                          <span class="original-name"> Bullet Train </span>
+                        </p>
+                        <p>
+                          <span class="turkish-name"> Suikast Treni </span>
+                        </p>
+                      </div>
+                      <div class="top-left">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                      <div class="top-right">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="movie-large swiper-slide">
+                    <div class="poster relative overflow-hidden rounded-sm">
+                      <a href="javascript:;" class="block">Bullet Train</a>
+                      <img
+                        class="img-responsive"
+                        src="/assets/img/slider/slider.jpg"
+                        alt=""
+                        width="570"
+                        height="320"
+                      />
+                      <div class="detail">
+                        <p>
+                          <span class="original-name"> Bullet Train </span>
+                        </p>
+                        <p>
+                          <span class="turkish-name"> Suikast Treni </span>
+                        </p>
+                      </div>
+                      <div class="top-left">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                      <div class="top-right">
+                        <span class="black-badge">IMDB: 7.3</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </section>
+          <section class="movie-list bg-black">
+            <ul class="flex items-center justify-between">
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p><span class="original-name">American Murderer</span></p>
+                    <p><span class="turkish-name">American Murderer</span></p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p><span class="original-name">American Murderer</span></p>
+                    <p><span class="turkish-name">American Murderer</span></p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p><span class="original-name">American Murderer</span></p>
+                    <p><span class="turkish-name">American Murderer</span></p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p><span class="original-name">American Murderer</span></p>
+                    <p><span class="turkish-name">American Murderer</span></p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p><span class="original-name">American Murderer</span></p>
+                    <p><span class="turkish-name">American Murderer</span></p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p>
+                      <span class="original-name">American Murderer</span>
+                    </p>
+                    <p>
+                      <span class="turkish-name">American Murderer</span>
+                    </p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+              <li class="md:w-1/6 sm:w-1/2 movie">
+                <div class="poster">
+                  <p class="language">
+                    <span class="flag en"></span>
+                  </p>
+                  <a href="javascript:;">American Murderer</a>
+                  <img
+                    class="img-responsive"
+                    loading="lazy"
+                    width="170"
+                    height="251"
+                    src="/assets/img/movie/movie-1.jpg"
+                    alt=""
+                  />
+                  <div class="detail">
+                    <p>
+                      <span class="original-name">American Murderer</span>
+                    </p>
+                    <p>
+                      <span class="turkish-name">American Murderer</span>
+                    </p>
+                  </div>
+                  <div class="hover-box">
+                    <p class="top">2022 - 1080p</p>
+                    <div class="imdb-eclipse center" data-percent="48">
+                      <span class="imdb-rating">4.8</span>
+                      <span class="text">imdb puanı</span>
+                      <canvas height="124" width="124"></canvas>
+                    </div>
+                    <p class="bottom">Gerilim, Suç</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
 </html>
