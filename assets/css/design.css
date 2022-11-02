@@ -307,3 +307,48 @@ body {
 .movie .poster:hover .hover-box {
   display: block;
 }
+.pagination{
+    padding: 20px 0;
+}
+.pagination-items ul{
+    margin-left: -8px;
+}
+.pagination-items ul li a:hover {
+    background-color: #ffc526;
+}
+.pagination-items ul li:first-child a{
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+a.active{
+    background-color: #ffc526;
+}
+.page-description p{
+    color: rgb(156 163 175);
+    padding-bottom: 10px;
+}
+.footer-items{
+    padding: 20px 10px;
+}
+.footer-social ul li a{
+    padding: 0 5px;
+}
+.footer-social ul li:first-child a{
+    padding: 0;
+}
+.footer-social ul li a svg{
+    width: 16px;
+    height: 16px;
+    color: rgb(156 163 175);
+}
+.copyright{
+    border-left: 1px solid rgb(156 163 175);
+    margin-left: 10px;
+    padding: 0 10px;
+    color: rgb(156 163 175);
+    font-size: 12px;
+}
+.footer-contact ul li a{
+    color: rgb(156 163 175);
+    font-size: 12px;
+}
